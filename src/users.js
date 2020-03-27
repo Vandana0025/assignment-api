@@ -3,8 +3,8 @@
 var users = [
   {
     id: 1,
-    name: 'Vandana Manhas',
-    email: 'vandana_25@gmail.com',
+    name: 'Vandana',
+    email: 'random@random.com',
     password: 'pass123',
   },
   {

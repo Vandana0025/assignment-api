@@ -6,9 +6,11 @@ const auth = require('./auth.js')()
 const users = require('./users.js')
 const cfg = require('./config.js')
 const app = express()
+var cors = require('cors')
 
 const PORT = 4000
 app.use(bodyParser.json())
+app.use(cors())
 app.use(
   bodyParser.urlencoded({
     extended: true,
